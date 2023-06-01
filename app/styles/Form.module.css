@@ -1,0 +1,5 @@
+.sideImg{
+    background-image: url("../../public/rectangle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
