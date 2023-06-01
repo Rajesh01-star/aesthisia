@@ -8,7 +8,7 @@ export default function SideShow() {
       <div className='h-full w-full p-6 flex justify-center items-center'>
           <div className={`${styles.sideImg} h-full w-full mt-20 text-white flex flex-col p-10`}>
             <div className="h-[10%] md:h-[50%]">
-              <img src="/icons.png" className="w-[3rem] md:w-[5rem]" />
+              <img src="/icons.png" className="w-[3rem] md:w-[5rem]" alt="icons"/>
             </div>
             <div className="h-[40%] md:h-[30%]">
               <h1 className="text-3xl md:text-5xl font-bold leading-[5rem] md:leading-[6rem]">100% Uptime 😎</h1>

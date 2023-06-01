@@ -20,7 +20,7 @@ export default function FormSection() {
   return (
     <div className="formContainer mt-24 md:mt-0 h-full w-full px-10 flex flex-col justify-center items-center box-border overflow-hidden">
       <div className="h-[10rem] flex flex-col justify-center items-center mt-4">
-        <img src="/petals.png" className="w-[4rem]" />
+        <img src="/petals.png" className="w-[4rem]" alt="petals"/>
         <h3 className="text-2xl md:text-4xl">Welcome <span className="text-teal-600">Back!</span></h3>
         <p className="text-sm md:text-lg text-gray-500">Glad to see you, Again!</p>
       </div>
@@ -50,7 +50,7 @@ export default function FormSection() {
         </form>
       </div>
       <div className="h-[5rem] text-gray-500">
-        Don't have an account yet?{" "}
+      Don&rsquo;t have an account yet?{" "}
         <span className="text-teal-600 hover:cursor-pointer">Sign up</span>
       </div>
     </div>
