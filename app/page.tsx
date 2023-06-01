@@ -4,7 +4,7 @@ import SideShow from "./components/SideShow";
 
 export default function Form() {  
   return (
-    <section className='h-screen w-screen flex sm:flex sm:flex-col-reverse justify-center items-center' >
+    <section className='h-[70rem] md:h-screen w-screen flex flex-col-reverse md:flex md:flex-row justify-center items-center' >
         {/* image section */}
       <SideShow />
       {/* form section */}
